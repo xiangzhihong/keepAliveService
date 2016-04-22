@@ -17,7 +17,6 @@ public class PushReceiver extends BroadcastReceiver {
     }  
 }  
 
-然后在配置文件注册下就好了
  <service android:name=".service.AliveService" />
         <receiver android:name=".breoadcast.BootBroadcastReceiver">
             <intent-filter>
@@ -25,3 +24,7 @@ public class PushReceiver extends BroadcastReceiver {
                 <action android:name="android.intent.action.USER_PRESENT" />
             </intent-filter>
         </receiver>
+
+
+
+
